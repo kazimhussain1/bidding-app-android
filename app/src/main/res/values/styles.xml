@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textInputStyle">@style/OutlinedTextField</item>
+        <item name="radioButtonStyle">@style/RadioButtonStyle</item>
+    </style>
+
+
+    <style name="OutlinedTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeColor">@color/colorBlack</item>
+        <item name="boxStrokeWidthFocused">4dp</item>
+        <item name="hintTextColor">@color/colorBlack</item>
+        <item name="hintTextAppearance">@style/OutlinedTextFieldHintText</item>
+    </style>
+
+    <style name="OutlinedTextFieldHintText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorControlActivated">@color/colorBlack</item>
+    </style>
+</resources>
